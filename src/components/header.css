@@ -2,28 +2,38 @@
     height: 128px;
     background-color: #004400;
 }
+.navbar-collapse {
+    position: inherit;
+    height: auto;
+    list-style: none;
+
+    text-align: right;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.navbar-nav {
+    
+    display: inline-block;
+    
+    
+}
 .img-logo {
     position: absolute;
     width: 79px;
     height: 71px;
     left: 0;
-    margin: 0;
-    margin-left: 125px;
+    top: 30px;
+    padding: 24px, 33px, 24px, 33px ;
+    margin: 0px 125px 0px 100px;
     
     text-align: center;
     
+   
+    
     
 }
-.navbar-collapse {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-.navbar-nav {
-    display: inline-block;
-    margin-right: 125px;
-}
+
+
 .nav-link {
     text-decoration: none;
     width: 100px;
@@ -34,12 +44,13 @@
     text-align: center;
     margin-right: 7px;
     
+    
 }
 .btn-wh {
     width: 118px;
     height: 44px;
     
-    
+    padding: 24px, 32px, 24px, 32px;
     gap: 10px;
     background: #BEFF0D;
     border-radius: 7.29px;

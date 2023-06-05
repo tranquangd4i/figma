@@ -6,9 +6,9 @@ function Header() {
     <nav className="navbar">
       <div className="container-fluid">
         <div className="navbar-collapse">
-          <div className="logo-page">
+          
             <img src={logo} className="img-logo" alt="..." />
-          </div>
+          
           <div className="navbar-nav">
             <a className="nav-link" aria-current="page" href="#">
               PARTNER

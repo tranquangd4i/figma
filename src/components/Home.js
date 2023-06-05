@@ -1,11 +1,15 @@
-import bg1 from '../assets/images/bg1.png'
-import './home.css'
+/* eslint-disable no-unused-vars */
+import Hero from "./insideHome/Hero";
+import Features from "./insideHome/Features";
+
 function Home() {
-    return ( 
-        <div className="container">
-            <div className="container-bg1"><img src={bg1} className='img-bg1' alt='...' /></div>
-        </div>
-     );
+  return (
+    <>
+      <Hero />
+      <Features />
+      <div className="container"></div>
+    </>
+  );
 }
 
-export default Home ;
+export default Home;
