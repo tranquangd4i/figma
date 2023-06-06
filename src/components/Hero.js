@@ -4,11 +4,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // Styles & Images
-import "./inside.css";
-import heroBg from "../../assets/images/bg1.png";
-import ytb from "../../assets/images/Youtube.png";
-import telegram from "../../assets/images/Telegram.png";
-import twitter from "../../assets/images/Twitter.png";
+import "./hero.css";
+import heroBg from "../assets/images/bg1.png";
+import ytb from "../assets/images/Youtube.png";
+import telegram from "../assets/images/Telegram.png";
+import twitter from "../assets/images/Twitter.png";
 
 function Hero(props) {
   return (

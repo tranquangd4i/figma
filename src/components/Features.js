@@ -1,10 +1,10 @@
-import './inside.css'
-import arrowImage from '../../assets/images/arrow.png'
-import pancake from '../../assets/images/pancake.png'
-import coinbase from '../../assets/images/coinbase.png'
+import './features.css'
+import arrowImage from '../assets/images/arrow.png'
+import pancake from '../assets/images/pancake.png'
+import coinbase from '../assets/images/coinbase.png'
 function Features() {
   return (
-    <section className='features-section'>
+    <div className='features-section'>
       <img src={arrowImage} alt='arrow-img' className='arrow-img' />
       <div className="partner">
         <div className='partner-frame'>
@@ -106,7 +106,7 @@ function Features() {
         <div className='features-grants'></div>
       </div>
       
-    </section>
+    </div>
   );
 }
 

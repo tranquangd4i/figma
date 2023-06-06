@@ -1,5 +1,8 @@
-import frameIMG from '../../assets/images/frame.png'
-import './inside.css'
+import frameIMG from '../assets/images/frame.png'
+import './about.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 function About() {
     return ( 
         <div className="about-us">
@@ -8,8 +11,7 @@ function About() {
                 <img src={frameIMG} alt="img-nft" className="about-img" />
                     <div className="video-button">
                         <div className="btn-icon">
-                            <div className="icon-vector1"></div>
-                            <div className="icon-vector2"></div>
+                        {/* <FontAwesomeIcon icon="fa-regular fa-play" /> */}
                         </div>
                         <h5 className="text-btn">Watch Video</h5>
                     </div>

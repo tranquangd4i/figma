@@ -1,7 +1,8 @@
-import './inside.css'
-import imageNFT from '../../assets/images/image.png'
+import './testimonial.css'
+import imageNFT from '../assets/images/image.png'
 function Testimonial() {
-    return ( 
+    return (
+        
         <div className="testimonial">
             <div className="ecosystem">
                 <div className="ecosystem-frame">
@@ -22,6 +23,7 @@ function Testimonial() {
                 <div className="content-card"></div>
             </div>
         </div>
+
      );
 }
 

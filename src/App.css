@@ -1,7 +1,13 @@
-.App {
-  width: 1440px;
-  text-align: center;
-  background: linear-gradient(180deg, #073336 0%, #073429 24.48%, #062E32 49.48%, #000C06 72.92%, #092921 97.92%);
+
+
+
+html, body{
+  min-height: 100%;
+  max-width: 1440px;
+  background: #FFFF;
+  
+
+  text-rendering: optimizeSpeed;
+  
+  overflow-y: overlay;
 }
-
-

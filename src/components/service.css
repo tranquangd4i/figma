@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+/* Service */
+
+
+.service{
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 135px;
+  gap: 10px;
+  
+  position: absolute;
+  max-width: 1440px;
+  height: 636px;
+  
+
+  
+  }
+  .service-content{
+    /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  
+  width: 1170px;
+  height: 536px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .content-heading-title{
+    /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  
+  width: 1170px;
+  height: 128px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+  .heading-about-us{
+    width: 1170px;
+  height: 48px;
+  
+  /* Desktop/Heading Large */
+  
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  
+  text-align: center;
+  letter-spacing: -0.022em;
+  
+  /* Text/Icon/Primary */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+  
+  .description-about{
+    width: 500px;
+  height: 72px;
+  
+  /* Desktop/Label */
+  
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  text-align: center;
+  letter-spacing: -0.011em;
+  
+  /* Text/Icon/Secondary */
+  
+  color: #C8C7D8;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+
+  .content-card{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1170px;
+height: 360px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
