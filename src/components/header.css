@@ -1,6 +1,6 @@
 .navbar {
     height: 128px;
-    background-color: #004400;
+    /* background: linear-gradient(180deg, #073336 0%, #073429 24.48%, #062E32 49.48%, #000C06 72.92%, #092921 97.92%); */
 }
 .navbar-collapse {
     position: inherit;
@@ -16,6 +16,9 @@
     display: inline-block;
     
     
+}
+.container-fluid{
+    padding: 0px;
 }
 .img-logo {
     position: absolute;
