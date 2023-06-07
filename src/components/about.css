@@ -14,14 +14,14 @@
   left: 248px;
   top: 211px;
   }
-  /* .about-bg-line{
+  .about-bg-line{
   position: absolute;
   width: 1440px;
   height: 661px;
   left: 0px;
   top: 0px;
   
-  } */
+  }
   .group-frame1{
     box-sizing: border-box;
     position: absolute;
@@ -75,12 +75,8 @@
   padding: 0px;
   gap: 8px;
   
-  width: 24px;
-  height: 24px;
-  
-  border: 1.5px solid #FFFFFF;
-  border-radius: 100px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 1.6rem;
+    color: #FFFFFF;
   
   /* Inside auto layout */
   
@@ -455,13 +451,18 @@
   
   .read-arrow-right{
     width: 24px;
-  height: 24px;
-  
-  
+    height: 24px;
+    padding-bottom: 32px;
+    font-size: 1.3rem;
+    color:  #BEFF0D;
   /* Inside auto layout */
   
   flex: none;
   order: 1;
   flex-grow: 0;
   }
-  
+.read-more-icon{
+  position: absolute;
+
+ 
+}

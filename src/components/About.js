@@ -1,7 +1,8 @@
 import frameIMG from '../assets/images/frame.png'
 import './about.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay } from '@fortawesome/free-regular-svg-icons';
 
 function About() {
     return ( 
@@ -11,7 +12,7 @@ function About() {
                 <img src={frameIMG} alt="img-nft" className="about-img" />
                     <div className="video-button">
                         <div className="btn-icon">
-                        {/* <FontAwesomeIcon icon="fa-regular fa-play" /> */}
+                            <FontAwesomeIcon icon={faCirclePlay} />
                         </div>
                         <h5 className="text-btn">Watch Video</h5>
                     </div>
@@ -48,8 +49,7 @@ function About() {
                         <action className="frame-action">
                             <p className="read-more">Read more on our blog</p>
                             <div className="read-arrow-right">
-                                <span className="read-vector1"></span>
-                                <span className="read-vector1"></span>
+                                <FontAwesomeIcon icon={faArrowRight} className='read-more-icon'/>
                             </div>
                         </action>
                     </div>

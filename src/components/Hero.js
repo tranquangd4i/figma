@@ -31,6 +31,7 @@ function Hero(props) {
           </div>
         </div>
       </div>
+      <div className="bg-line"></div>
     </section>
   );
 }

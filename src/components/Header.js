@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/images/logo1.png";
 import "./header.css";
 function Header() {
@@ -36,7 +38,10 @@ function Header() {
                   <div className="item7">
                     <a className="item-link7">Connect</a>
                   </div>
-                  <button className="dashboard">Dashboard</button>
+                  <div className="div-btn">
+                    <div className="dashboard">Dashboard</div>
+                    <div className="arrow-right"><FontAwesomeIcon icon={faArrowRight} /></div></div>
+
                 </div>
               </div>
             </div>

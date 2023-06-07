@@ -45,9 +45,7 @@ flex-grow: 0;
     
     
 }
-.container-fluid{
-    padding: 0px;
-}
+
 .img-logo {
     position: static;
     width: 79px;
@@ -472,7 +470,7 @@ order: 0;
 flex-grow: 0;
 }
 
-.dashboard{
+.div-btn{
     /* Auto layout */
 
 display: flex;
@@ -495,4 +493,55 @@ border-radius: 7.29px;
 flex: none;
 order: 7;
 flex-grow: 0;
+}
+
+.dashboard{
+    width: 83px;
+height: 24px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.011em;
+
+/* Gradient/Grey */
+
+background: linear-gradient(193.53deg, #2C2C3D -7.66%, #1A1A27 79.5%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.arrow-right{
+    width: 16px;
+height: 16px;
+
+font-size: 1rem;
+padding-bottom: 25px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+ a:hover{
+ 
+ color: #BEFF0D;
+ cursor: pointer;
 }

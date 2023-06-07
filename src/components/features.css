@@ -119,11 +119,10 @@
   .partner-frame1088 {
     width: 1188px;
     height: 230px;
-    margin: auto;
-    padding-top: 30px;
-  
+    
+    
     /* Inside auto layout */
-  
+    
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -150,64 +149,76 @@
   }
   
   .control-left {
-    position: relative;
+    position: absolute;
     width: 48px;
     height: 48px;
-    left: 0px;
+    left: 142px;
     top: 92px;
   }
   
-  .arrow-left {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    left: calc(50% - 24px/2);
-    top: calc(50% - 24px/2);
-  }
+
   
   .control-frame-left {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 0;
-    top: 0;
-    background: #FFFFFF;
+    left: 0px;
+    top: 0px;
+    
+    /* Base/Black */
+    
+    background: #1C1C28;
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 100%;
+    border-radius: 100px;
+
+
+    font-size: 1.6rem;
+    color:  #BEFF0D;
   }
   
   
   .control-right {
-    position: relative;
+    position: absolute;
     width: 48px;
     height: 48px;
-    left: 1122px;
+    right: 142px;
     top: 92px;
-  
+    
     border-radius: 100px;
+
+    
   }
+  /* .arrow-right{
+    font-size: 3rem;
+    color: #FFFFFF;
+  } */
   
-  .arrow-right {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    left: calc(50% - 24px/2);
-    top: -37px;
-  
-  
-  }
+
   .control-frame-right {
     position: absolute;
     width: 48px;
     height: 48px;
     left: 0px;
-    top: -48px;
-  
-    /* Base/White */
-  
-    background: #FFFFFF;
+    top: 0px;
+    
+    /* Base/Black */
+    
+    background: #1C1C28;
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 100px;
+
+
+
+    font-size: 1.6rem;
+    color:  #BEFF0D;
+
+  }
+  .fa-arrow-right-icon, .fa-arrow-left-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2);
+    top: calc(50% - 24px/2);
   }
   .frame1089 {
     position: static;
@@ -222,19 +233,18 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-top: 30px;
-    margin-left: 110px;
-    margin-right: 110px;
+    padding: 0px;
     gap: 44px;
-  
+    
     position: absolute;
     width: 984px;
-    height: 195px;
+    height: 112px;
     left: 0px;
-    top: calc(50% - 195px/2);
+    top: calc(50% - 112px/2 - 0.5px);
+    
   }
   
-  .paralax-partner1 {
+  .paralax-partner {
     box-sizing: border-box;
   
     /* Auto layout */
@@ -243,7 +253,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-  
+    
     width: 213px;
     height: 195px;
   
@@ -260,161 +270,6 @@
     flex-grow: 0;
   }
   
-  .paralax-partner2 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-  
-  .paralax-partner3 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-  }
-  
-  .paralax-partner4 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-  }
-  
-  .paralax-partner5 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-  }
-  
-  .paralax-partner6 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 5;
-    flex-grow: 0;
-  }
-  
-  .paralax-partner7 {
-    box-sizing: border-box;
-  
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-  
-    width: 213px;
-    height: 195px;
-  
-    /* Border/Card */
-  
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    background-blend-mode: soft-light;
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 6;
-    flex-grow: 0;
-  }
   
   .img-block {
     width: 213px;
@@ -430,91 +285,8 @@
     flex-grow: 0;
   }
   
-  .img-block2 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .img-block3 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .img-block4 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .img-block5 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .img-block6 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .img-block7 {
-    width: 213px;
-    height: 195px;
-  
-    border-radius: 16px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .section-divider .section-divider2 .section-divider3 .section-divider4 .section-divider5 .section-divider6 .section-divider7{
+
+  .section-divider {
     position: absolute;
     visibility: hidden;
     height: 1px;
@@ -529,7 +301,7 @@
   
   
   
-  .partner-content1 .partner-content2 .partner-content3 .partner-content4 .partner-content5 .partner-content6 .partner-content7 {
+  .partner-content{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -539,7 +311,7 @@
   
   
   
-  .img-content1 .img-content2 .img-content3 .img-content4 .img-content5 .img-content6 .img-content7{
+  .img-content{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -565,4 +337,14 @@
     left: calc(50% - 172px/2 - 0.5px);
     top: 78px;
   
+  }
+  .bg-line{
+    position: absolute;
+width: 1440px;
+height: 744px;
+left: 1440px;
+top: 0px;
+
+opacity: 0.12;
+transform: matrix(-1, 0, 0, 1, 0, 0);
   }
