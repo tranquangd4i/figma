@@ -2,13 +2,14 @@
 
 
 html, body{
-  min-height: 100%;
-  max-width: 1440px;
-  background: #FFFF;
+  width: 100%;
+  height: 100vh;
+  
   
 
 
 }
 .App {
+  
   position: absolute;
 }
