@@ -5,7 +5,7 @@
     padding: 24px 32px;
 
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 128px;
     left: 0px;
     top: 0px;
@@ -19,47 +19,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 93px;
-    gap: 988px;
+    
+    
     position: absolute;
     width: 1376px;
     height: 80px;
 
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.navbar-nav {
-
-    width: 80px;
-    height: 80px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
 
 }
 
-.navbar-nav :hover {
 
-
-    cursor: pointer
-}
 
 .img-logo {
-    position: static;
+    position: absolute;
     width: 80px;
     height: 80px;
-    left: 0px;
+    left: 125px;
     top: 0px;
 
 
@@ -86,23 +62,7 @@
 }
 
 
-.navbar-frame {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 
-    gap: 12px;
-
-    width: 821px;
-    height: 48px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .frame {
     /* Auto layout */
@@ -125,12 +85,12 @@
 
 .frame-com {
     /* Auto layout */
-
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
+    left: 90px;
     width: 821px;
     height: 48px;
 

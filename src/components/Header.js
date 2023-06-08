@@ -6,12 +6,11 @@ import "./header.css";
 function Header() {
   return (
     <div className="navbar">
-      <div className="container-fluid">
+      
         <div className="navbar-collapse">
           
             
           
-          <div className="navbar-nav">
             <img src={logo} className="img-logo" alt="..." />
           <div className="navbar-menu">
             <div className="navbar-frame">
@@ -48,9 +47,9 @@ function Header() {
           </div>
 
           </div>
-        </div>
+        
       </div>
-    </div>
+    
   );
 }
 

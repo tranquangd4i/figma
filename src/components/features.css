@@ -2,7 +2,7 @@
 
 .features-section {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 756px;
   left: 0;
   top: 797px;
@@ -18,7 +18,7 @@
   gap: 80px;
   padding: 0px;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 477px;
   left: 0px;
   top: 134px;
@@ -97,9 +97,9 @@
 .arrow-img {
   opacity: 0.03;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 756px;
-  left: calc(50% - 1440px/2);
+  left: calc(50% - 100%/2);
   top: calc(50% - 760px/2);
 
 
@@ -107,9 +107,9 @@
 
 .bg-line {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 744px;
-  left: 1440px;
+  left: 100%;
   top: 0px;
 
   opacity: 0.12;
@@ -136,7 +136,7 @@
   padding: 80px 108px;
   gap: 46px;
 
-  width: 1440px;
+  width: 100%;
   height: 355px;
 
 
@@ -225,7 +225,7 @@
 }
 
 .frame1089 {
-  position: static;
+  position: absolute;
   width: 986px;
   height: 245px;
   left: 101px;
@@ -345,9 +345,9 @@
 
 .bg-line {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 744px;
-  left: 1440px;
+  left: 100%;
   top: 0px;
 
   opacity: 0.12;

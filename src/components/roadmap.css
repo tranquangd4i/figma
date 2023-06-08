@@ -6,14 +6,14 @@
     padding: 50px 0px;
     background-color: #092921;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1796px;
     left: 0px;
     top: 3785px;
 }
 
 .roadmap {
-    width: 1440px;
+    width: 100%;
     height: 1696px;
 
 
@@ -256,7 +256,7 @@ line-height: 24px;
 }
 .line-horizontal2, .line-horizontal4{
     top: 93px;
-    left: 423.5px;
+    left: 421px;
 }
 .line-horizontal3{
     top: 93px;
