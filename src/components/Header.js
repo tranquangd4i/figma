@@ -38,9 +38,9 @@ function Header() {
                   <div className="item7">
                     <a className="item-link7">Connect</a>
                   </div>
-                  <div className="div-btn">
-                    <div className="dashboard">Dashboard</div>
-                    <div className="arrow-right"><FontAwesomeIcon icon={faArrowRight} /></div></div>
+                  <button className="div-btn">
+                    
+                    <div className="arrow-right"><FontAwesomeIcon icon={faArrowRight} /></div>Dashboard</button>
 
                 </div>
               </div>

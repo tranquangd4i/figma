@@ -1,225 +1,234 @@
 /* Testimonials */
 
 
-.testimonial{
-    position: absolute;
+.testimonial {
+  position: absolute;
   width: 1440px;
   height: 947px;
   left: 0px;
   top: 2202px;
   background-color: #092921;
-  }
-  .ecosystem{
-    display: flex;
+}
+
+.ecosystem {
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 80px 0px;
   gap: 80px;
-  
+
   position: absolute;
   width: 1440px;
   height: 934px;
   left: calc(50% - 1440px/2);
   top: calc(50% - 934px/2 + 52.5px);
-  }
-  .ecosystem-frame{
-    width: 600px;
+}
+
+.ecosystem-frame {
+  width: 600px;
   height: 56px;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
-  }
-  .circle{
-    position: absolute;
+}
+
+.circle {
+  position: absolute;
   width: 230px;
   height: 64px;
-  
-  right: 497px;;
+
+  right: 497px;
+  ;
   top: -8px;
-  
-  
-  }
-  .oval{
-    position: absolute;
-    border-radius: 100%;
-    border-top-left-radius: 200%;
-    border-bottom-right-radius: 160%;
+
+
+}
+
+.oval {
+  position: absolute;
+  border-radius: 100%;
+  border-top-left-radius: 200%;
+  border-bottom-right-radius: 160%;
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
-  
+
   /* Accent/Brand */
-  
+
   background: #BEFF0D;
-  }
-  .eco-headings-sp-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    
-    position: absolute;
-    width: 600px;
-    height: 48px;
-    left: calc(50% - 600px/2);
-    top: 0px;
-    
-  }
-  .eco-heading{
-    width: 600px;
+}
+
+.eco-headings-sp-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 600px;
   height: 48px;
-  
+  left: calc(50% - 600px/2);
+  top: 0px;
+
+}
+
+.eco-heading {
+  width: 600px;
+  height: 48px;
+
   /* Desktop/Heading Large */
-  
+
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   /* identical to box height, or 120% */
-  
+
   text-align: center;
   letter-spacing: -0.022em;
-  
+
   /* Text/Icon/Primary */
-  
+
   color: #FFFFFF;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-  }
-  
-  
-  
-  .testimonial-content{
-    display: flex;
+}
+
+
+
+.testimonial-content {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 48px;
-  
+
   position: absolute;
   width: 1170px;
   height: 456px;
   left: calc(50% - 1170px/2);
   top: calc(50% - 456px/2 + 0.5px);
-  }
-  
-  .title-carousel{
-    display: flex;
+}
+
+.title-carousel {
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  
+
   width: 1170px;
   height: 120px;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-  }
-  
-  .test-content-heading-sp-text{
-    /* Auto layout */
-  
+}
+
+.test-content-heading-sp-text {
+  /* Auto layout */
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  
+
   width: 1034px;
   height: 120px;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 1;
-  }
-  
-  .carousel{
-    /* Auto layout */
-  
+}
+
+.carousel {
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  
+
   width: 128px;
   height: 56px;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
-  }
-  
-  .content-card{
-    /* Auto layout */
-  
+}
+
+.content-card {
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  
+
   width: 1170px;
   height: 288px;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
-  }
-  .about-img{
-    box-sizing: border-box;
-    position: absolute;
-    width: 390px;
-    height: 256px;
-    right: 0;
-    top: 1px;
-    border: 1px solid #BEFF0D;
-    border-radius: 15px;
-  }
-  .img-nft{
-    
-    box-sizing: border-box;
-    
-    width: 1078px;
-    height: 615.38px;
-    
-    position: absolute;
-    left: 0;
-    margin-left: 181px;
-    border: 1px solid #BEFF0D;
-    border-radius: 32px;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    }
+}
+
+.about-img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 390px;
+  height: 256px;
+  right: 0;
+  top: 1px;
+  border: 1px solid #BEFF0D;
+  border-radius: 15px;
+}
+
+.img-nft {
+
+  box-sizing: border-box;
+
+  width: 1078px;
+  height: 615.38px;
+
+  position: absolute;
+  left: 0;
+  margin-left: 181px;
+  border: 1px solid #BEFF0D;
+  border-radius: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

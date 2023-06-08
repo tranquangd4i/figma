@@ -2,7 +2,7 @@ import './testimonial.css'
 import imageNFT from '../assets/images/image.png'
 function Testimonial() {
     return (
-        
+
         <div className="testimonial">
             <div className="ecosystem">
                 <div className="ecosystem-frame">
@@ -24,7 +24,7 @@ function Testimonial() {
             </div>
         </div>
 
-     );
+    );
 }
 
 export default Testimonial;

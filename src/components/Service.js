@@ -1,6 +1,6 @@
 import './service.css';
-function Service () {
-    return ( 
+function Service() {
+    return (
         <div className='service'>
             <div className='service-content'>
                 <div className='content-heading-title'>
@@ -19,7 +19,7 @@ function Service () {
                                 <p className='text2'>Anyone in this crowdfunding has a chance to become a dollar millionaire thanks to the fairest & smartest benefit distribution algorithm today from the founding team</p>
                             </div>
                         </div>
-                        <div className='3'>
+                        <div className='card3'>
                             <div className='card-frame3'>
                                 <p className='text3'>Where the community is ready to provide financial support for a friend you do not know and receive the support of the participants of this community fund</p>
                             </div>
@@ -28,7 +28,7 @@ function Service () {
                 </div>
             </div>
         </div>
-     );
+    );
 }
 
-export default Service ;
+export default Service;

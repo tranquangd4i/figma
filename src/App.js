@@ -4,6 +4,7 @@ import Features from './components/Features';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Roadmap from './components/Roadmap';
 import Service from './components/Service';
 import Testimonial from './components/Testimonial';
 
@@ -16,7 +17,8 @@ function App() {
     <Features />
     <About />
     <Testimonial />
-    
+    <Service />
+    <Roadmap />
     <Footer />
     </div>
   );
