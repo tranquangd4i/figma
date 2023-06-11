@@ -1,0 +1,79 @@
+.nav-mobile{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    top: 25%;
+
+   
+
+
+
+}
+.wrapper-mobile{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+    width: 320px;
+    height: 568px;
+    border-radius: 4%;
+    background: linear-gradient(180deg, #073336 0%, #073429 24.48%, #062E32 49.48%, #000C06 72.92%, #092921 97.92%);
+}
+.nav-mobile-header{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    height: 80px;
+    left: 0;
+    top: 0;
+}
+.navmobile-div-btn{
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 5px;
+    width: 35%;
+    height: 40px;
+    background: #BEFF0D;
+    border-radius: 7.29px;
+    position: absolute;
+    left: 40%;
+
+}
+.nav-mobile-icon{
+    position: absolute;
+    left: 10%;
+    top: 5px;
+}
+.nav-mobile-logo{
+    
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0;
+    top: 0px;
+
+}
+.nav-mobile-close{
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 10%;
+}
+
+@media (min-width: 1023px){
+    .wrapper-mobile {
+        display: none;
+        left: 0;
+    }
+}

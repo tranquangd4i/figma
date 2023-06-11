@@ -25,10 +25,13 @@ function Hero(props) {
             the residents of Finaldefi.
           </h5>
           <div className="hero-socials">
-            <a className="nav-link"  href="/"><img src={ytb} alt="hero-bg" className="hero-icon"/></a>
-            <a className="nav-link"  href="/"><img src={telegram} alt="hero-bg" className="hero-icon"/></a>
-            <a className="nav-link"  href="/"><img src={twitter} alt="hero-bg" className="hero-icon"/></a>
+            <a className="nav-link" href="/"><img src={ytb} alt="hero-bg" className="hero-icon" /></a>
+            <a className="nav-link" href="/"><img src={telegram} alt="hero-bg" className="hero-icon" /></a>
+            <a className="nav-link" href="/"><img src={twitter} alt="hero-bg" className="hero-icon" /></a>
           </div>
+          <button className="hero-btn" type="button">
+            Join now
+          </button>
         </div>
       </div>
       <div className="bg-line"></div>

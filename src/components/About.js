@@ -36,16 +36,12 @@ function About() {
                     </div>
                 </div>
                 <div className="group-frame2">
-                    <div className="sparkle">
-                        <div className="-sparkle-vector1"></div>
-                        <div className="-sparkle-vector1"></div>
-                        <div className="-sparkle-vector1"></div>
-                    </div>
+
                     <div className="frame-text">
-                        <div className="heading-sp-text">
-                            <h3 className="heading-text">What’s Finaldefi ?</h3>
-                            <h4 className="sp-text">Finaldefi operates on a decentralized finance (DeFi) platform, integrating a marketing program and an automatic algorithm to distribute 100% of the funds to each participant’s position. The links in Finaldefi CHAIN are transparent, safe, fast, and fair, creating long-term stability for all participants</h4>
-                        </div>
+
+                        <h3 className="heading-text">What’s Finaldefi ?</h3>
+                        <h4 className="sp-text">Finaldefi operates on a decentralized finance (DeFi) platform, integrating a marketing program and an automatic algorithm to distribute 100% of the funds to each participant’s position. The links in Finaldefi CHAIN are transparent, safe, fast, and fair, creating long-term stability for all participants</h4>
+
                         <div className="frame-action">
                             <p className="read-more">Read more on our blog</p>
                             <div className="read-arrow-right">
@@ -55,7 +51,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="about-bg-line"></div>
+
         </div>
     );
 }

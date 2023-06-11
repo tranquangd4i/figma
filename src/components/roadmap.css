@@ -27,9 +27,9 @@
     gap: 24px;
 
     position: absolute;
-    width: 1190px;
+    width: 78.36%;
     height: 1529px;
-    left: calc(50% - 1190px/2);
+    left: calc(50% - 78.36%/2);
     top: calc(50% - 1529px/2 + 0.5px);
 }
 
@@ -40,8 +40,8 @@
     padding: 0px;
     gap: 16px;
 
-    width: 1190px;
-    height: 48px;
+    width: 100%;
+    height: 3.15%;
 }
 
 .roadmap-heading-text {
@@ -69,17 +69,17 @@
 }
 
 .roadmap-group {
-    width: 1099px;
-    height: 1457px;
+    width: 100%;
+    height: 96%;
 
 }
 
 .roadmap-line {
     position: absolute;
-    /* width: 1100px; */
-    height: 1370px;
-    left: 582px;
-    top: 56px;
+    
+    height: 89.63%;
+    left: 49%;
+    top: 4%;
     border: 5px solid #FFFFFF;
     opacity: 1;
     transform: rotate(180deg);
@@ -91,51 +91,51 @@
     
 }
 .line-group1{
-    width: 714px;
-height: 206px;
-left: 430.5px;
-top: 72px;
+    width: 60%;
+height: 13.5%;
+left: 36.3%;
+top: 4.5%;
 }
 .line-group2{
-    width: 702px;
-height: 230px;
-left: 45.5px;
-top: 335px;
+    width: 60%;
+    height: 16.5%;
+    left: 3.9%;
+    top: 20%;
 
 }
 .line-group3{
-    width: 714px;
-height: 230px;
-left: 430.5px;
-top: 567px;
+    width: 60%;
+    height: 15%;
+    left: 36.3%;
+    top: 37%;
 }
 .line-group4{
-    width: 702px;
+    width: 60%;
     height: 206px;
-    left: 45.5px;
-    top: 833px;
+    left: 4%;
+    top: 55.5%;
 
 }
 .line-group5{
     position: absolute;
-    width: 654px;
-    height: 230px;
-    left: 490.5px;
-    top: 1109px;
+    width: 55%;
+    height: 15%;
+    left: 41.3%;
+    top: 70%;
     
     
 }
 .line-group6{
-    width: 667px;
-height: 206px;
-left: 45.5px;
-top: 1339px;
+    width: 59%;
+    height: 14%;
+    left: 3.87%;
+    top: 88%;
 }
 
 .shape-ellipse1, .shape-ellipse2, .shape-ellipse3, .shape-ellipse4, .shape-ellipse5, .shape-ellipse6 {
     position: absolute;
-    width: 46px;
-    height: 46px;
+    width: 6.5%;
+    
     border-radius: 100%;
     
 
@@ -145,9 +145,11 @@ top: 1339px;
 }
 
 .shape-ellipse1{
-    
-top: 85px;
-left: 133px;
+    width: 6.5%;
+    height: 23%;
+    top: 40%;
+    left: 18.5%;
+
 background: #FFFFFF;
 }
 /* Base/White */
@@ -155,24 +157,29 @@ background: #FFFFFF;
 
 .shape-ellipse2{
     
-    top: 90px;
-    left: 518px;
+    height: 18%;
+    top: 36%;
+    left: 72.6%;
 background: #FFFFFF;
 /* Accent/Brand */
 
 
 }
 .shape-ellipse3{
-    top: 90px;
-    left: 133px;
+    
+    height: 20%;
+    top: 40%;
+    left: 18.6%;
 background: #FFFFFF;
 /* Background/Secondary Hover */
 
 
 }
 .shape-ellipse4{
-    top: 90px;
-left: 518px;
+    
+    height: 22%;
+    top: 44%;
+    left: 72.5%;
 
 background: #FFFFFF;
 /* Background/Secondary Hover */
@@ -181,8 +188,10 @@ background: #FFFFFF;
 }
 .shape-ellipse5{
     
-top: 90px;
-left: 73px;
+    height: 19%;
+    
+    top: 40%;
+    left: 11.4%;
 background: #FFFFFF;
 /* Background/Secondary Hover */
 
@@ -190,9 +199,10 @@ background: #FFFFFF;
 }
 .shape-ellipse6{
     
-
-    top: 80px;
-    left: 518px;
+    width: 6.5%;
+    height: 21%;
+    top: 36%;
+    left: 74%;
 
 background: #FFFFFF;
 /* Background/Secondary Hover */
@@ -207,8 +217,8 @@ background: #FFFFFF;
 .group-roadmap-heading5, 
 .group-roadmap-heading6{
     position: absolute;
-width: 80px;
-height: 24px;
+width: 11.3%;
+height: 12%;
 margin: 0;
 font-family: 'Noto Sans';
 font-style: normal;
@@ -219,18 +229,21 @@ line-height: 24px;
     color: #FFFFFF;
 }
 
-.group-roadmap-heading1{
-    top: 95px;
+.group-roadmap-heading1, .group-roadmap-heading3, .group-roadmap-heading5{
+    top: 45%;
     
 }
-.group-roadmap-heading2, .group-roadmap-heading4{
-    top: 100px;
+.group-roadmap-heading2{
+    top: 41%;
     right: 0;
     text-align: end;
 }
-.group-roadmap-heading3, .group-roadmap-heading5{
-    top: 100px;
+.group-roadmap-heading4{
+    top: 50%;
+    right: 0;
+    text-align: end;
 }
+
 
 .group-roadmap-heading6{
     top: 95px;
@@ -244,35 +257,46 @@ line-height: 24px;
 .line-horizontal5, 
 .line-horizontal6{
     position: absolute;
-    width: 98px;
+    /* width: 13.8%; */
     height: 0px;
     border: 5px solid #FFFFFF;
     opacity: 1;
 }
 
 .line-horizontal1{
-    top: 87px;
-    left:178px;
+    width: 14%;
+    top: 41%;
+    left: 24.78%;
 }
-.line-horizontal2, .line-horizontal4{
-    top: 93px;
-    left: 421px;
+.line-horizontal2{
+    width: 14%;
+    top: 37%;
+    left: 59.19%;
 }
 .line-horizontal3{
+    width: 16%;
     top: 93px;
     left: 178px;
 }
+.line-horizontal4{
+    width: 16%;
+    top: 45%;
+    left: 59.3%;
+}
 .line-horizontal5{
-    top: 93px;
-    left: 117px;
+    width: 13.8%;
+    top: 41%;
+    left: 17%;
 }
 .line-horizontal6{
-    top: 84px;
-    left: 424px;
+    width: 13.8%;
+    top: 37%;
+    left: 60.4%;
+
 }
 
 .roadmap-card1, .roadmap-card2, .roadmap-card3, .roadmap-card4, .roadmap-card5, .roadmap-card6{
-    width: 440px;
+    width: 62.7%;
     position: absolute;
     padding: 79px 135px;
     border-radius: 30px;
@@ -285,37 +309,39 @@ filter: drop-shadow(0px 4px 40px rgba(190, 255, 13, 0.5));
 border-radius: 30px;
 }
 .roadmap-card1{
-    height: 206px;
-    left: 275px;
-    top: 1px;
+    height: 96.6%;
+    left: 38.6%;
+    top: 0%;
 
 }
 .roadmap-card2{
-    height: 254px;
-    left: -16.5px;
-    top: -13px;
+    height: 96.5%;
+    left: -3.5%;
+    top: 0%;
+
 
 }
 .roadmap-card3{
-    height: 230px;
-    left: 275px;
-    top: 1px;
+    height: 96.5%;
+    left: 38.5%;
+    top: 3%;
 }
 .roadmap-card4{
-    height: 206px;
-    left: -16px;
-    top: -1px;
+    height: 96.5%;
+    left: -3.5%;
+    top: 6%;
 }
 .roadmap-card5{
-    height: 206px;
-    left: 214px;
-    top: 11px;
+    height: 96.5%;
+    left: 30.5%;
+    top: 6%;
 
 }
 .roadmap-card6{
-    height: 206px;
-    left: -15px;
-    top: 2px;
+    height: 96.5%;
+    left: -2.3%;
+    top: 1%;
+
 
 }
 
@@ -334,10 +360,10 @@ color: #FFFFFF;
 }
 .roadmap-sp-content{
     position: absolute;
-    top:50px;
-    left: 50px;
-    right: 50px;
-    bottom: 50px;
+    top:10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
     
     font-family: 'Noto Sans';
 font-style: normal;
@@ -349,4 +375,135 @@ line-height: 24px;
 display: flex;
 align-items: center;
 letter-spacing: -0.017em;
+}
+
+
+@media only screen and (max-width: 560px){
+    .roadmap-wrap{
+        top: 3165px;
+
+    }
+    .roadmap-line{
+        left: -10%;
+    }
+    .line-group1{
+        left: 0.3%;
+    }
+
+    .shape-ellipse1{
+    width: 10.5%;
+    height: 9.5%;
+    top: 10%;
+    left: -20%
+    }
+    .shape-ellipse2{
+        width: 10.5%;
+        height: 8.5%;
+        top: 8%;
+        left: -26%;
+    }
+    .shape-ellipse3{
+        width: 10.5%;
+        height: 9.5%;
+        top: 14%;
+        left: -80.4%;
+    }
+    .shape-ellipse4{
+        top: 8%;
+        left: -25.5%;
+        width: 9.5%;
+    height: 9.5%;
+    }
+    .shape-ellipse5{
+        width: 10.5%;
+        height: 9.5%;
+        top: 15%;
+        left: -95.6%;
+    }
+    .shape-ellipse6{
+        width: 10.5%;
+    height: 10.5%;
+    top: 9%;
+    left: -26%;
+    }
+    .roadmap-card2{
+        
+        left: 33.5%;
+        
+    }
+    .roadmap-card3{
+        
+        left: -20.5%;
+        top: 8%;
+    }
+    .roadmap-card4{
+        left: 32.5%;
+        top: -1%;
+
+    }
+    .roadmap-card5{
+        left: -31.5%;
+        top: 7%;
+    }
+    .roadmap-card6{
+        left: 31.7%;
+        top: 2%;
+
+    }
+    .line-horizontal1{
+        width: 52.8%;
+        top: 5%;
+    left: -14.22%;
+    }
+    .line-horizontal2{
+        width: 52.8%;
+        top: 4%;
+    left: -18.81%;
+    }
+    .line-horizontal3{
+        width: 52.8%;
+        top: 22px;
+    left: -140px;
+    }
+    .line-horizontal4{
+        width: 52.8%;
+        top: 3%;
+        left: -19.7%;
+    }
+    .line-horizontal5{
+        width: 57.8%;
+        top: 11%;
+        left: -89%;
+    }
+    .line-horizontal6{
+        width: 52.8%;
+        top: 5%;
+        left: -20%;
+    }
+    .group-roadmap-heading1{
+        left: 45%;
+        top: 5%;
+    }
+    .group-roadmap-heading2{
+        top: 4%;
+    left: 80px;
+    
+    }
+    .group-roadmap-heading3{
+        left: -10%;
+    top: 11%;
+    }
+    .group-roadmap-heading4{
+        top: 5%;
+    left: 41%;
+    }
+    .group-roadmap-heading5{
+        top: 13%;
+    left: -23%;
+    }
+    .group-roadmap-heading6{
+        top: 21px;
+        left: 78px;
+        
+    }
 }

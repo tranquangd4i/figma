@@ -63,7 +63,7 @@ color: #FFFFFF;
 
 }
 .circle{
-    width: 17%;
+    width: 14%;
     height: 5%;
     position: absolute;
     border-radius: 100%;
@@ -90,4 +90,32 @@ color: #FFFFFF;
     height: 52.8%;
     top: 14%;
     text-align: center;
+}
+
+@media only screen and (max-width: 560px) {
+    .testimonial{
+        top: 1550px;
+        height: 446px;
+    }
+    .eco-heading{
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .circle{
+        width: 34%;
+        height: 8%;
+    }
+    .eco-frame1090{
+        
+
+    width: 83%;
+    height: 52.8%;
+    top: 17%;
+
+
+    }
+    .img-nft{
+        left: 10%;
+    }
 }

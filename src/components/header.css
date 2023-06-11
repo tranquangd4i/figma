@@ -2,15 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px 32px;
-
+    padding: 0;
     position: absolute;
     width: 100%;
     height: 128px;
     left: 0px;
     top: 0px;
     background-color: #092921;
-    ;
+
 }
 
 .navbar-collapse {
@@ -19,11 +18,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
     position: absolute;
-    width: 1376px;
-    height: 80px;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    padding: 0 15px 0 15px;
 
 
 
@@ -35,53 +34,35 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 125px;
-    top: 0px;
+    left: 10%;
+    top: 10%;
 
 
 
 
 }
 
+
+
+
+
 .navbar-menu {
+    position: absolute;
+    right: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     padding: 0px;
+    width: 80%;
+    height: 100%;
 
-    width: 122px;
-    height: 48px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 1;
 }
 
 
 
 
-.frame {
-    /* Auto layout */
 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 15px;
-
-    width: 821px;
-    height: 48px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .frame-com {
     /* Auto layout */
@@ -89,17 +70,14 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
     padding: 0px;
-    left: 90px;
-    width: 821px;
-    height: 48px;
+    right: 10%;
+    width: 75%;
+    height: 45%;
 
 
-    /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .item1 {
@@ -110,17 +88,10 @@
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 89px;
-    height: 48px;
-
+    width: 10%;
+    height: 45%;
     border-radius: 8px;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .item2 {
@@ -131,39 +102,25 @@
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 112px;
-    height: 48px;
-
+    width: 12%;
+    height: 100%;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 
 }
 
 .item3 {
     /* Auto layout */
 
+ 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 78px;
-    height: 48px;
-
+    width: 8%;
+    height: 100%;
     border-radius: 8px;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
 
 .item4 {
@@ -174,17 +131,9 @@
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 109px;
-    height: 48px;
-
+    width: 13%;
+    height: 100%;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
 }
 
 .item5 {
@@ -195,38 +144,21 @@
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 121px;
-    height: 48px;
-
+    width: 14%;
+    height: 100%;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 4;
-    flex-grow: 0;
 }
 
 .item6 {
     /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 74px;
-    height: 48px;
-
+    width: 8%;
+    height: 100%;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 5;
-    flex-grow: 0;
 }
 
 .item7 {
@@ -238,31 +170,15 @@
     align-items: center;
     padding: 12px 16px;
     gap: 4px;
-
-    width: 95px;
-    height: 48px;
-
+    width: 13%;
+    height: 100%;
     border-radius: 7.29px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 6;
-    flex-grow: 0;
 }
-
-.item-link1 {
-    /* Auto layout */
-
-    width: 80px;
-    height: 24px;
-
-    /* Desktop/Label */
-
+.item-link1, .item-link2, .item-link3, .item-link4, .item-link5, .item-link6, .item-link7{
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     /* identical to box height, or 150% */
 
@@ -274,206 +190,26 @@
 
     color: #C8C7D8;
     text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
 }
 
-.item-link2 {
-    width: 80px;
-    height: 24px;
-
-    /* Desktop/Label */
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.item-link3 {
-    width: 46px;
-    height: 24px;
-
-    /* Desktop/Label */
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.item-link4 {
-    width: 77px;
-    height: 24px;
-
-    /* Desktop/Label */
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-
-}
-
-.item-link5 {
-    width: 89px;
-    height: 24px;
-
-    /* Desktop/Label */
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.item-link6 {
-    width: 42px;
-    height: 24px;
-
-    /* Desktop/Label */
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.item-link7 {
-    width: 63px;
-    height: 24px;
-
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.011em;
-
-    /* Text/Icon/Secondary */
-
-    color: #C8C7D8;
-    text-decoration: none;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .div-btn {
     /* Auto layout */
-    width: 83px;
-    height: 24px;
+
 
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 16px;
-    gap: 12px;
+    gap: 5px;
 
-    width: 143px;
-    height: 48px;
+    width: 15%;
+    height: 100%;
 
     /* Accent/Brand */
 
@@ -514,4 +250,37 @@ a:hover {
 
     color: #BEFF0D;
     cursor: pointer;
+}
+.navbar-btn{
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    display: none;
+}
+
+@media only screen and (max-width: 560px){
+    .navbar{
+        height: 104px;
+    }
+    .img-logo{
+        top: 5%;
+    }
+    .navbar-btn {
+        display: flex;
+        
+        align-items: center;
+        
+        justify-content: flex-start;
+        
+    }
+    .frame-com {
+        display: none;
+        flex-direction: column;
+
+    }
+
+
+    
+
 }

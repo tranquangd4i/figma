@@ -12,14 +12,14 @@ import Testimonial from './components/Testimonial';
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Hero />
-    <Features />
-    <About />
-    <Testimonial />
-    <Service />
-    <Roadmap />
-    <Footer />
+      <Header />
+      <Hero />
+      <Features />
+      <About />
+      <Testimonial />
+      <Service />
+      <Roadmap />
+      <Footer />
     </div>
   );
 }

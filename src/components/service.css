@@ -2,18 +2,19 @@
 
 
 .service {
-
+  width: 100%;
+  height: 636px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 135px;
+
   gap: 10px;
   top: 3149px;
   left: 0;
   position: absolute;
-  width: 100%;
-  height: 636px;
+
   background-color: #092921;
   ;
 
@@ -28,10 +29,10 @@
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 48px;
+  gap: 10px;
 
-  width: 1170px;
-  height: 536px;
+  width: 70%;
+  height: 100%;
 
 
   /* Inside auto layout */
@@ -50,8 +51,8 @@
   padding: 0px;
   gap: 8px;
 
-  width: 1170px;
-  height: 128px;
+  width: 100%;
+  height: 24%;
 
 
   /* Inside auto layout */
@@ -63,8 +64,8 @@
 }
 
 .heading-about-us {
-  width: 1170px;
-  height: 48px;
+  width: 100%;
+  height: 37.5%;
 
   /* Desktop/Heading Large */
 
@@ -92,8 +93,8 @@
 }
 
 .description-about {
-  width: 500px;
-  height: 72px;
+  width: 41%;
+  height: 56%;
 
   /* Desktop/Label */
 
@@ -122,32 +123,28 @@
 .content-card {
   /* Auto layout */
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
 
-  width: 1170px;
-  height: 360px;
+  padding: 0px;
+
+
+  width: 100%;
+  height: 50.7%;
 
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
+
 
 .row {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
+  margin-left: 1%;
   gap: 24px;
-
-  width: 1170px;
-  height: 360px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .card1,
@@ -160,8 +157,8 @@
   padding: 40px 32px;
   gap: 32px;
 
-  width: 374px;
-  height: 360px;
+  width: 30.64%;
+  height: 100%;
   background: linear-gradient(150.39deg, rgba(229, 237, 248, 0.0376) 15.02%, rgba(237, 242, 248, 0.08) 99.59%);
   border-radius: 16px;
 
@@ -178,6 +175,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
   /* or 150% */
 
   text-align: center;
@@ -186,4 +184,46 @@
   /* Text/Icon/Primary */
 
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 569px) {
+  .service{
+    top: 1990px;
+    height: 1181px;
+  }
+  .heading-about-us{
+    height: 11%;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: calc(0.017 * 24px);
+  }
+  .description-about{
+    width: 100%;
+    height: 28.4%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: calc(-0.011 * 14px);
+  }
+  .content-card{
+    justify-content: center;
+  }
+  .card1, .card2, .card3{
+    width: 100%;
+    height: 36%;
+  }
+  .content-heading-title{
+    height: 20%;
+  }
+  .card-frame1, .card-frame2, .card-frame3 {
+    width: 125%;
+    height: 100%;
+    
+  }
+  .text1, .text2, .text3{
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    letter-spacing: calc(-0.011 * 12px) ;
+  }
 }

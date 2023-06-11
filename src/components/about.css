@@ -9,11 +9,16 @@
   }
   
   .group {
+    display: flex;
     position: absolute;
-    width: 70%;
-    /* height: 20%; */
-    left: 248px;
-    top: 211px;
+    width: 80%;
+    height: 80%;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    flex-direction: row;
+    align-items: flex-start;
   }
   
   .about-bg-line {
@@ -30,7 +35,7 @@
   .group-frame1 {
     box-sizing: border-box;
     position: absolute;
-    width: 390px;
+    width: 33%;
     height: 256px;
     right: 0;
     
@@ -320,7 +325,7 @@
   
   .group-frame2 {
     position: absolute;
-    width: 597px;
+    width: 50%;
     height: 256px;
     left: 0;
     
@@ -339,40 +344,20 @@
   }
   
   .frame-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     padding: 0px;
-    gap: 24px;
-  
+   
     position: absolute;
-    width: 600px;
+    width: 100%;
     height: 244px;
-    left: calc(50% - 600px/2 + 0.5px);
+    
     top: 0px;
   }
   
-  .heading-sp-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-  
-    width: 600px;
-    height: 196px;
-  
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
+
   
   .heading-text {
-    width: 600px;
+    width: 100%;
     height: 48px;
   
     /* Desktop/Heading Large */
@@ -381,7 +366,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 48px;
+    line-height: 25px;
     /* identical to box height, or 120% */
   
     letter-spacing: -0.022em;
@@ -393,10 +378,7 @@
   
     /* Inside auto layout */
   
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+ 
   }
   
   .sp-text {
@@ -431,16 +413,11 @@
     padding: 0px;
     gap: 8px;
   
-    width: 600px;
+    width: 45%;
     height: 24px;
   
   
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+
   }
   
   .frame-action :hover {
@@ -490,4 +467,46 @@
     position: absolute;
   
   
+  }
+
+
+  @media only screen and (max-width: 560px) {
+    .about-us{
+      top: 892px;
+    }
+    .group{
+      flex-direction: column;
+    }
+    .frame-text, 
+    .group-frame1, 
+    .group-frame2, 
+    .heading-text, 
+    .sp-text,
+    .frame-action {
+      width: 100%;
+
+    }
+    .frame-text{
+      height: 100%
+    }
+    .group-frame1{
+      margin-top: 40px;
+    }
+    .group-frame2{
+      position: unset;
+    }
+    .heading-text{
+      font-size: 24px;
+      letter-spacing: calc(0.017 * 24px);
+      text-align: center;
+    }
+    
+    .sp-text {
+      text-align: center;
+      margin-top: 256px;
+    }
+    .frame-action {
+      margin-top: 35%;
+      justify-content: center;
+    }
   }
