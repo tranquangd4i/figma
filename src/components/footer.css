@@ -137,9 +137,49 @@
     .footer-logo{
         
     height: 80px;
-    left: 40%;
-    bottom: 80%;
-    right: 40%;
+    left: unset;
+    
+
+    }
+    .footer-frame2{
+        gap: unset;
+    }
+    .last-finaldefi{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 561px) and (max-width: 740px){
+    .footer-wrap{
+        top: 4955px;
+        height: 292px;
+        padding: unset;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        
+    }
+    .footer-menu-content{
+
+        gap: 5px;
+
+       
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style: none;
+    }
+    .footer-menu{
+        left: 32%;
+        right: 32%;
+        top: 35%;
+        bottom: 35%;
+    }
+    .footer-logo{
+        
+    height: 80px;
+    left: unset;
+    
 
     }
     .footer-frame2{

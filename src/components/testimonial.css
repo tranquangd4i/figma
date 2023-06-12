@@ -119,3 +119,31 @@ color: #FFFFFF;
         left: 10%;
     }
 }
+
+@media only screen and (min-width: 561px) and (max-width: 740px){
+    .testimonial{
+        top: 1550px;
+        height: 446px;
+    }
+    .eco-heading{
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .circle{
+        width: 23%;
+        height: 8%;
+    }
+    .eco-frame1090{
+        
+
+    width: 83%;
+    height: 62%;
+    top: 17%;
+
+
+    }
+    .img-nft{
+        left: 10%;
+    }
+}

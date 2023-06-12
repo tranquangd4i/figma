@@ -284,3 +284,25 @@ a:hover {
     
 
 }
+
+@media only screen and (min-width: 561px) and (max-width: 740px) {
+    .navbar{
+        height: 104px;
+    }
+    .img-logo{
+        top: 5%;
+    }
+    .navbar-btn {
+        display: flex;
+        
+        align-items: center;
+        
+        justify-content: flex-start;
+        
+    }
+    .frame-com {
+        display: none;
+        flex-direction: column;
+
+    }
+}

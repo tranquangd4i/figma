@@ -510,3 +510,50 @@
       justify-content: center;
     }
   }
+  @media only screen and (max-width: 280px) {
+    .frame-action{
+      margin-top: 70%;
+    }
+  }
+
+
+  @media only screen and (min-width: 561px) and (max-width: 740px){
+    .about-us{
+      top: 892px;
+    }
+    .group{
+      flex-direction: column;
+    }
+    .frame-text, 
+    .group-frame1, 
+    .group-frame2, 
+    .heading-text, 
+    .sp-text,
+    .frame-action {
+      width: 100%;
+
+    }
+    .frame-text{
+      height: 100%
+    }
+    .group-frame1{
+      margin-top: 40px;
+    }
+    .group-frame2{
+      position: unset;
+    }
+    .heading-text{
+      font-size: 24px;
+      letter-spacing: calc(0.017 * 24px);
+      text-align: center;
+    }
+    
+    .sp-text {
+      text-align: center;
+      margin-top: 256px;
+    }
+    .frame-action {
+      margin-top: 10%;
+      justify-content: center;
+    }
+  }
