@@ -435,3 +435,14 @@
   display: none;
 }
 }
+
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+  .control-left{
+    left: 10%;
+    top: 62%;
+  }
+  .control-right{
+    right: 10%;
+    top: 62%
+  }
+}

@@ -7,7 +7,7 @@
     height: 947px;
     align-items: center;
     left: 0px;
-    top: 2202px;
+    top: 2200px;
     background-color: #092921;
   }
   
@@ -145,5 +145,23 @@ color: #FFFFFF;
     }
     .img-nft{
         left: 10%;
+    }
+}
+
+@media only screen and (min-width: 741px) and (max-width: 1024px){
+    .testimonial{
+        top: 2200px;
+    }
+    .ecosystem{
+        height: 5.1%;
+    }
+    .eco-frame1090{
+        width: 70%;
+        height: 42%;
+        left: 15%;
+    }
+    .img-nft{
+        position: unset;
+        left: unset;
     }
 }
