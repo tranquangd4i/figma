@@ -136,7 +136,7 @@ top: 4.5%;
     position: absolute;
 
     
-    border-radius: 100%;
+    border-radius: 50%;
     
 
 /* Background/Secondary Hover */
@@ -145,8 +145,8 @@ top: 4.5%;
 }
 
 .shape-ellipse1{
-    width: 7.5%;
-    height: 23%;
+    width: 46px;
+    height: 46px;
     top: 40%;
     left: 12.5%;
 
@@ -156,8 +156,8 @@ background: #FFFFFF;
 
 
 .shape-ellipse2{
-    width: 7.5%;
-    height: 18%;
+    width: 46px;
+    height: 46px;
     top: 36%;
     left: 73%;
 background: #FFFFFF;
@@ -166,18 +166,18 @@ background: #FFFFFF;
 
 }
 .shape-ellipse3{
-    width: 7.5%;
-    height: 20%;
+    width: 46px;
+    height: 46px;
     top: 40%;
-    left: 18.6%;
+    left: 19%;
 background: #FFFFFF;
 /* Background/Secondary Hover */
 
 
 }
 .shape-ellipse4{
-    width: 7.5%;
-    height: 22%;
+    width: 46px;
+    height: 46px;
     top: 44%;
     left: 73%;
 
@@ -187,11 +187,11 @@ background: #FFFFFF;
 
 }
 .shape-ellipse5{
-    width: 7.5%;
-    height: 19%;
+    width: 46px;
+    height: 46px;
     
     top: 40%;
-    left: 18.8%;
+    left: 19%;
 background: #FFFFFF;
 /* Background/Secondary Hover */
 
@@ -199,9 +199,9 @@ background: #FFFFFF;
 }
 .shape-ellipse6{
     
-    width: 7.5%;
-    height: 21%;
-    left: 72.5%;
+    width: 46px;
+    height: 46px;
+    left: 73%;
     top: 34%;
 
 background: #FFFFFF;
@@ -227,6 +227,9 @@ font-size: 20px;
 line-height: 24px;
 
     color: #FFFFFF;
+}
+.group-roadmap-heading1{
+    left: -10%;
 }
 
 .group-roadmap-heading1, .group-roadmap-heading3, .group-roadmap-heading5{
@@ -401,39 +404,21 @@ letter-spacing: -0.017em;
         left: unset;
         
     }
-    .shape-ellipse1{   
+    .shape-ellipse1, .shape-ellipse4, .shape-ellipse5, .shape-ellipse6 {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        top: 13%;
+        left: 2.5%;
+    }
+    .shape-ellipse2, .shape-ellipse3{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        top: 12%;
+        left: 2.5%;
+    }
         
-        height: 13%;
-        top: 10%;
-        left: 1.5%;
-   
-    }
-    .shape-ellipse2{
-        height: 11%;
-        top: 10%;
-      left: 1.5%;
-    }
-    .shape-ellipse3{
-        top: 10%;
-        height: 11%;
-        left: 1.5%;
-    }
-    .shape-ellipse4{
-        top: 10%;
-        height: 14%;
-        left: 1.5%;
-    }
-    .shape-ellipse5{
-        top: 10%;
-        height: 12%;
-        left: 1.5%;
-    }
-    .shape-ellipse6{
-        top: 10%;
-        height: 12%;
-        left: 1.5%;
-    }
-   
     .line-horizontal1, .line-horizontal2, .line-horizontal3, .line-horizontal4, .line-horizontal5, .line-horizontal6{
         top: 7%;
         left: 4%;
@@ -577,19 +562,43 @@ letter-spacing: -0.017em;
         left: unset;
     }
     .shape-ellipse1, .shape-ellipse2, .shape-ellipse3, .shape-ellipse4, .shape-ellipse5, .shape-ellipse6{
-        display: none;
+        height: 25px;
+        width: 25px;
          }
+         .shape-ellipse1{
+            top: 44%;
+            left: 13.7%;
+        }
+        .shape-ellipse2{
+            top: 40%;
+            left: 74.2%;
+        }
+        .shape-ellipse3{
+            top: 45%;
+            left: 20.4%;
+        }
+        .shape-ellipse4{
+            top: 48%;
+            left: 74.2%;
+        }
+        .shape-ellipse5{
+            top: 44%;
+            left: 20.4%;
+        }
+        .shape-ellipse6{
+            top: 40%;
+            left: 74.2%;
+        }
     .line-horizontal6, .line-horizontal4, .line-horizontal2{
         
-        width: 20.5%;
+        width: 14.5%;
     }
     .line-horizontal6{
         top: 36%;
     }
     .line-horizontal3{
-        width: 21.7%;
-   
-    left: 15.5%;
+        width: 14.7%;
+        left: 22.5%;
     }
     .group-roadmap-heading1, .group-roadmap-heading3, .group-roadmap-heading5 {
         top: 5%;
