@@ -58,6 +58,7 @@
     width: 80px;
     height: 80px;
     left: 5%;
+    top: 10%;
     padding-top: 0px;
 }
 
@@ -202,7 +203,7 @@
         
     }
     .footer-frame2{
-        padding-top: 240px;
+        padding-top: 150px;
     }
     .footer-menu-content {
         justify-content: flex-end;

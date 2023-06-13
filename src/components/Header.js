@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/images/logo1.png";
@@ -43,7 +45,7 @@ function Header() {
 
 
           </div>
-          <div className="navbar-btn"><FontAwesomeIcon icon={faBars} /></div>
+          <div className="navbar-btn"><button><FontAwesomeIcon icon={faBars} className="icon-bar" /></button></div>
 
         </div>
         <Navmobile />
