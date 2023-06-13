@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faXmark } from "@fortawesome/free-solid-svg-icons";
 import './navmobile.css';
 import mobileLogo from '../assets/images/logo1.png'
-function Navmobile() {
+function Namable() {
+    const [navMobile, setNavMobile] = useState(true)
     return (
         <div className="wrapper-mobile">
             <div className="nav-mobile-header">
@@ -41,4 +44,4 @@ function Navmobile() {
     );
 }
 
-export default Navmobile;
+export default Namable;

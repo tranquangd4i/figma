@@ -45,7 +45,7 @@ function Header() {
 
 
           </div>
-          <div className="navbar-btn"><button><FontAwesomeIcon icon={faBars} className="icon-bar" /></button></div>
+          <div className="navbar-btn"><FontAwesomeIcon icon={faBars} /></div>
 
         </div>
         <Navmobile />

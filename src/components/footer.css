@@ -110,6 +110,7 @@
 .footer-menu-content :hover {
     color: #BEFF0D;
     cursor: pointer;
+   
 }
 @media only screen and (max-width: 560px) {
     .footer-wrap{
