@@ -11,12 +11,12 @@ function Service() {
                     <div className='row'>
                         <div className='card1'>
                             <div className='card-frame1'>
-                                <p className='text1'>All global community fund participants are equally empowered</p>
+                                <p className='text1'>Anyone in this crowdfunding has a chance to become a dollar millionaire thanks to the fairest & smartest benefit distribution algorithm today from the founding team</p>
                             </div>
                         </div>
                         <div className='card2'>
                             <div className='card-frame2'>
-                                <p className='text2'>Anyone in this crowdfunding has a chance to become a dollar millionaire thanks to the fairest & smartest benefit distribution algorithm today from the founding team</p>
+                                <p className='text2'>All global community fund participants are equally empowered</p>
                             </div>
                         </div>
                         <div className='card3'>

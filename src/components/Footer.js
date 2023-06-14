@@ -26,7 +26,7 @@ function Footer() {
         <div className='footer-wrap'>
 
 
-            <img src={logoFooter} alt='footer-logo' className='footer-logo' />
+            <div className='sp-footer-logo'><img src={logoFooter} alt='footer-logo' className='footer-logo' /></div>
             {/* {backToTop && (<button style={{
                 width: "80px",
                 height: "80px",

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faXmark } from "@fortawesome/free-solid-svg-icons";
 import './navmobile.css';
 import mobileLogo from '../assets/images/logo1.png'
-function Namable() {
+function Navmobile() {
     const [navMobile, setNavMobile] = useState(true)
     return (
         <div className="wrapper-mobile">
@@ -44,4 +44,4 @@ function Namable() {
     );
 }
 
-export default Namable;
+export default Navmobile;

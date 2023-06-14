@@ -123,24 +123,14 @@
     flex: none;
     order: 7;
     flex-grow: 0;
-
-}
-
-.div-btn :hover {
-
-    /* Accent/Brand */
-
-    
-   
-
     cursor: pointer;
+
 }
 
-
-
-
-
-
+.div-btn:hover{
+    border: 3px solid #BEFF0D;
+    box-shadow: 0px 4px 40px rgba(190, 255, 13, 0.5);
+}
 
 
 
@@ -168,6 +158,16 @@ a:hover {
     color: #FFFFFF;
     display: none;
 }
+/* tao div drodown la con cua div navbar-btn
+.navbar-btn-dropdown {
+    position: absolute;
+    top: 80%;
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    z-index: 100;  
+    display: none;
+  } */
 
 @media only screen and (max-width: 560px){
     .navbar{
@@ -191,8 +191,10 @@ a:hover {
         flex-direction: column;
 
     }
-    
-
+    /* lang nghe su kien hover(la click tren mobile) => thay doi display cua div dropdown
+    .navbar-btn:hover .navbar-btn-dropdown {
+        display: block;
+      } */
 
     
 
@@ -219,6 +221,9 @@ a:hover {
         flex-direction: column;
 
     }
+    .navbar-btn:hover .navbar-btn-dropdown {
+        display: block;
+      }
 }
 
 

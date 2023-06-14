@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     height: 39.5%;
-    top: 5575px;
+    top: 5570px;
 
     bottom: 0px;
     background-color: #092921;
@@ -51,15 +51,21 @@
 
     color: #CCCCCC;
 }
-
-
-.footer-logo {
+.sp-footer-logo{
     position: absolute;
+
+    padding: 0px;
+    top: 10%;
     width: 80px;
     height: 80px;
     left: 5%;
-    top: 10%;
-    padding-top: 0px;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
 }
 
 /* .footer-group-frame {
@@ -139,7 +145,7 @@
    align-items: unset;
    
     }
-    .footer-logo{
+    .sp-footer-logo{
     bottom: 180px;
     height: 80px;
     left: unset;
@@ -181,7 +187,7 @@
         top: 35%;
         bottom: 35%;
     }
-    .footer-logo{
+    .ap-footer-logo{
         
     height: 80px;
     left: unset;
@@ -212,7 +218,7 @@
        right: 10%;
     }
 
-    .footer-logo{
+    .sp-footer-logo{
         left: 5%;
         bottom: 40%;
     }
