@@ -5,10 +5,10 @@ import PropTypes from "prop-types";
 
 // Styles & Images
 import "./hero.css";
-import heroBg from "../assets/images/bg1.png";
-import ytb from "../assets/images/Youtube.png";
-import telegram from "../assets/images/Telegram.png";
-import twitter from "../assets/images/Twitter.png";
+import heroBg from "../../assets/images/bg1.png";
+import ytb from "../../assets/images/Youtube.png";
+import telegram from "../../assets/images/Telegram.png";
+import twitter from "../../assets/images/Twitter.png";
 
 function Hero(props) {
   return (
@@ -25,9 +25,15 @@ function Hero(props) {
             the residents of Finaldefi.
           </h5>
           <div className="hero-socials">
-            <a className="nav-link" href="/"><img src={ytb} alt="hero-bg" className="hero-icon" /></a>
-            <a className="nav-link" href="/"><img src={telegram} alt="hero-bg" className="hero-icon" /></a>
-            <a className="nav-link" href="/"><img src={twitter} alt="hero-bg" className="hero-icon" /></a>
+            <a className="nav-link" href="/">
+              <img src={ytb} alt="hero-bg" className="hero-icon" />
+            </a>
+            <a className="nav-link" href="/">
+              <img src={telegram} alt="hero-bg" className="hero-icon" />
+            </a>
+            <a className="nav-link" href="/">
+              <img src={twitter} alt="hero-bg" className="hero-icon" />
+            </a>
           </div>
           <button className="hero-btn" type="button">
             Join now

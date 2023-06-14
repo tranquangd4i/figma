@@ -1,19 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from "../assets/images/logo1.png";
+import logo from "../../assets/images/logo1.png";
 import "./header.css";
 import Navmobile from './Navmobile'
 function Header() {
+  const [isNavOpen, setIsNavOpen] = useState(false)
   return (
     <div className="navbar">
-
       <div className="navbar-collapse">
-
-
-
         <img src={logo} className="img-logo" alt="..." />
         <div className="navbar-menu">
 
@@ -42,18 +38,14 @@ function Header() {
             <button className="div-btn">
 
               <div className="arrow-right"><FontAwesomeIcon icon={faArrowRight} /></div>Dashboard</button>
-
-
           </div>
-          <div className="navbar-btn"><FontAwesomeIcon icon={faBars} />
-            {/* <div className="navbar-btn-dropdown"></div> */}
+          <div className="navbar-btn" onClick={() => setIsNavOpen(true)}><FontAwesomeIcon icon={faBars} />
           </div>
-
         </div>
-        <Navmobile />
       </div>
-
-
+      {isNavOpen && (
+        <Navmobile handleClose={() => setIsNavOpen(false)} />
+      )}
     </div>
 
   );
