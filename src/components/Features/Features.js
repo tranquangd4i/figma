@@ -5,6 +5,14 @@ import coinbase from "../../assets/images/coinbase.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 function Features() {
   return (
     <div className="features-section">
@@ -19,9 +27,6 @@ function Features() {
         </div>
         <div className="partner-frame1088">
           <div className="control-left">
-            {/* <div className='arrow-left'>
-            </div> */}
-            {/* <FontAwesomeIcon icon={faArrowLeft} className='fa-arrow-left-icon' /> */}
             <div className="control-frame-left">
               <FontAwesomeIcon
                 icon={faArrowLeft}
@@ -30,101 +35,57 @@ function Features() {
             </div>
           </div>
           <div className="partner-list">
-            <PartnerCard img={coinbase} />
-            <PartnerCard img={pancake} />
-            <PartnerCard img={coinbase} />
-            <PartnerCard img={pancake} />
+            <Swiper
+              grabCursor={true}
+              centeredSlides={true}
+              loop={true}
+              slidesPerView={4}
+              speed={2000}
+              pagination={{ clickable: true }}
+              navigation={{
+                prevEl: ".control-left",
+                nextEl: ".control-right",
+
+                clickable: true,
+              }}
+              modules={[Navigation]}
+            >
+              <SwiperSlide>
+                <PartnerCard img={coinbase} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={pancake} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={coinbase} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={pancake} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={coinbase} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={pancake} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={coinbase} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <PartnerCard img={pancake} />
+              </SwiperSlide>
+            </Swiper>
           </div>
           <div className="control-right">
-            {/* <div className='arrow-right'>
-              
-            </div> */}
             <div className="control-frame-right">
               <FontAwesomeIcon
                 icon={faArrowRight}
                 className="fa-arrow-right-icon"
               />
             </div>
-            {/* <FontAwesomeIcon icon={faArrowRight} className='fa-arrow-right-icon' /> */}
           </div>
-          {/* <div className='frame1089'>
-            <div className='paralax'>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={pancake} alt='pancake-img' className='pancake-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='paralax-partner'>
-                <div className='img-block'>
-                  <div className='section-divider'></div>
-                  <div className='partner-content'>
-                    <div className='img-content'>
-                      <img src={coinbase} alt='coinbase-img' className='coinbase-img' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
-        <div className="features-grants"></div>
       </div>
-      <div className="bg-line"></div>
     </div>
   );
 }
