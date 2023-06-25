@@ -139,20 +139,41 @@ a:hover {
   .navbar {
     height: 104px;
   }
+
+  .navbar-menu {
+    width: 10%;
+    position: initial;
+  }
   .img-logo {
+    position: initial;
     top: 5%;
   }
   .navbar-btn {
     display: flex;
-    position: absolute;
-    right: 10%;
+    float: right;
     align-items: center;
-
     justify-content: flex-end;
   }
   .frame-com {
     display: none;
     flex-direction: column;
+  }
+
+  .navbar-btn-connect {
+    width: 65%;
+  }
+
+  .btn-connect {
+    font-family: "Helvetica Rounded";
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 32px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
   }
 }
 
